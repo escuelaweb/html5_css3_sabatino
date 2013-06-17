@@ -1,0 +1,115 @@
+/* botones.css */
+.boton {
+  display: block;
+  padding: 10px 20px;
+  border: solid 1px #B1B1B1;
+  text-align: center;
+  text-decoration: none;
+  font-size: 1.1em;
+  line-height: 1.1em; 
+  /* border-radius:  10px 20px 0px 15px;
+   */
+  border-radius: 10px;
+  -webkit-box-shadow: 1px 1px 2px 1px rgba(0, 0, 0, 0.1);
+  box-shadow: 1px 1px 2px 1px rgba(0, 0, 0, 0.1);
+  
+  /* background */
+  background-image: -moz-linear-gradient(top,  rgba(255,255,255,0) 0%, rgba(255,255,255,0) 1%, rgba(255,255,255,0.55) 55%, rgba(255,255,255,0.75) 75%);
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,255,255,0)), color-stop(1%,rgba(255,255,255,0)), color-stop(99%,rgba(255,255,255,0.99)), color-stop(100%,rgba(255,255,255,1)));
+  background-image: -webkit-linear-gradient(top,  rgba(255,255,255,0) 0%,rgba(255,255,255,0) 1%,rgba(255,255,255,0.55) 55%,rgba(255,255,255,0.75) 75%);
+  background-image: -o-linear-gradient(top,  rgba(255,255,255,0) 0%,rgba(255,255,255,0) 1%,rgba(255,255,255,0.55) 55%,rgba(255,255,255,0.75) 75%);
+  background-image: -ms-linear-gradient(top,  rgba(255,255,255,0) 0%,rgba(255,255,255,0) 1%,rgba(255,255,255,0.55) 55%,rgba(255,255,255,0.75) 75%);
+  background-image: linear-gradient(to bottom,  rgba(255,255,255,0) 0%,rgba(255,255,255,0) 1%,rgba(255,255,255,0.55) 55%,rgba(255,255,255,0.75) 75%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffffff', endColorstr='#ffffff',GradientType=0 );
+
+  background-color: #9C9C9C;
+
+  color:#565656;
+
+  /* SOMBRA DEL TEXTO */
+  text-shadow: 1px 1px 1px #949494;
+  filter: dropshadow(color=#949494, offx=1, offy=1);
+
+  -webkit-transition: all 400ms ease;
+  -moz-transition: all 400ms ease;
+  -ms-transition: all 400ms ease;
+  -o-transition: all 400ms ease;
+  transition: all 400ms ease;
+}
+
+.text-stroke {
+  color: black;
+  text-shadow:    0 -1px 0 black,
+          -1px 0 0 black,
+          1px 0 0 black,
+          0 1px 0 black;
+}
+
+.desborde
+{
+  overflow: hidden;
+  white-space:nowrap;
+  text-overflow: ellipsis; /* ellipsis o clip */ 
+}
+
+.boton.boton-grande{
+  width:200px;
+  height: 40px;
+  font-size: 1.3em;
+  line-height: 1.3em;
+}
+
+h1 {
+  white-space:nowrap;  /* no existe salto de linea */
+  text-overflow: ellipsis; /* ellipsis o clip */ 
+}
+
+.boton.botn-morado{
+  background-color: #550A76;
+}
+
+.boton.botn-rojo{
+  background-color: #BE0832;
+}
+
+.boton:hover{
+  background-position: 0 -20px;
+
+}
+
+.fuente-icon{
+  font-family: 'any-old-icon';
+  font-size: 100px;
+}
+
+.fuente-icon.pacman{ 
+  color: #FFBB18;
+}
+
+.elemento-animado {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  content: "a";
+  margin-left: -30px;
+  margin-top: 30px;
+
+  width:120px;
+  height: 120px;
+  border: solid #FFBB18 2px;
+  border-radius: 60px;
+  text-align: center;
+  line-height: 130px;  
+
+  -webkit-transform: rotate(-360deg);
+  -moz-transform: rotate(-360deg);
+  -o-transform: rotate(-360deg);
+  -ms-transform: rotate(-360deg);
+  transform: rotate(-360deg);
+
+  -webkit-animation: 5s pacman ease infinite;
+  -moz-animation: 5s pacman ease infinite;
+  -ms-animation: 5s pacman ease infinite;
+  -o-animation: 5s pacman ease infinite;
+  animation: 5s pacman ease infinite;
+}

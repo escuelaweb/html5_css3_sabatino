@@ -1,0 +1,20 @@
+/*dia2_responsive.css*/
+
+#nav-ppal{
+  background-color: #353535;
+  color: #F9F9F9;
+}
+
+#nav-ppal ul li{
+  list-style: none;
+  width: 100px;
+  display: inline-block;
+}
+
+#nav-ppal ul li a{
+  width: 30px;
+  color : #FFFFFF;
+  text-decoration: none;
+
+}
+

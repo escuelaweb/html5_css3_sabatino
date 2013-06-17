@@ -1,0 +1,81 @@
+/*responsive.css*/
+
+/* 
+  min-width
+  max-width
+  orientation: portrait/landscape
+  resolution: 200ppi
+  print
+  screen
+ */
+
+@media (min-width: 1200px) { 
+ .container {
+    width : 940px;
+    margin: 0 auto;
+  }
+  .span1{ width: 70px;}
+  .span2{ width: 170px;}
+  .span3{ width: 270px;}
+  .span4{ width: 370px;}
+  .span5{ width: 470px;}
+  .span6{ width: 570px;}
+  .span7{ width: 670px;}
+  .span8{ width: 770px;}
+  .span9{ width: 870px;}
+  .span10{ width: 970px;}
+  .span11{ width: 1070px;}
+  .span12{ width: 1170px;} 
+  [class*="span"] {
+    float      : left;
+    margin-left: 30px;
+  }
+  .row{
+    margin-left: -30px;
+    display    : block;
+  }
+}
+ 
+
+
+/* Portrait tablet to landscape and desktop */
+@media (min-width: 768px) and (max-width: 979px) { 
+
+  .container {
+    width : 768px;
+    margin: 0 auto;
+  } 
+  .span1{ width: 42px;}
+  .span2{ width: 104px;}
+  .span3{ width: 166px;}
+  .span4{ width: 228px;}
+  .span5{ width: 290px;}
+  .span6{ width: 352px;}
+  .span7{ width: 414px;}
+  .span8{ width: 476px;}
+  .span9{ width: 538px;}
+  .span10{ width: 600px;}
+  .span11{ width: 662px;}
+  .span12{ width: 724px;} 
+
+  [class*="span"] {
+    float      : left;
+    margin-left: 20px;
+  }
+
+  .row{
+    margin-left: -20px;
+    display    : block;
+  } 
+}
+ 
+/* Landscape phone to portrait tablet */
+@media (max-width: 767px) { 
+
+  [class*="span"] {
+    width:100%;
+  }
+}
+ 
+/* Landscape phones and down */
+@media (max-width: 480px) {  }
