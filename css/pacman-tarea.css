@@ -1,0 +1,112 @@
+ body{
+  background: black;
+  overflow:hidden;
+  width:100%;
+}
+
+@keyframes "waka" {
+ 50% {
+    border-bottom: 0 solid transparent;
+    border-top: 0 solid transparent;
+    top: 100px;
+ }
+
+}
+
+@-moz-keyframes waka {
+ 50% {
+   border-bottom: 0 solid transparent;
+   border-top: 0 solid transparent;
+   top: 100px;
+ }
+
+}
+
+@-webkit-keyframes "waka" {
+ 50% {
+   border-bottom: 0 solid transparent;
+   border-top: 0 solid transparent;
+   top: 100px;
+ }
+
+}
+
+@-ms-keyframes "waka" {
+ 50% {
+   border-bottom: 0 solid transparent;
+   border-top: 0 solid transparent;
+   top: 100px;
+ }
+
+}
+
+@-o-keyframes "waka" {
+ 50% {
+   border-bottom: 0 solid transparent;
+   border-top: 0 solid transparent;
+   top: 100px;
+ }
+
+}
+
+@-webkit-keyframes movida{
+  0%{
+    left: -10%;
+  }
+  50%{
+    left: 100%;
+  }
+  100%{
+    left: 100%;
+  }
+}
+
+@-webkit-keyframes movidas{
+  0%{
+    right: -10%;
+  }
+  50%{
+    right: 100%;
+  }
+  100%{
+    right: 100%;
+  }
+}
+
+
+.pacman{  
+  background: #fffc07;
+  border-radius: 100%;
+  height: 200px;
+  position: absolute;
+  width: 200px;
+}
+
+.mouth {
+  -webkit-animation: waka 0.3s infinite;
+  -moz-animation: waka 0.3s infinite;
+  -ms-animation: waka 0.3s infinite;
+  -o-animation: waka 0.3s infinite;
+  animation: waka 0.3s infinite;
+  border-top: 100px solid transparent;
+  border-bottom: 100px solid transparent;
+  border-right: 100px solid black;
+  position: absolute;
+  right: 0;
+}
+
+#pacman{
+  -webkit-animation: movida 20s infinite;
+}
+
+#pacman-back{
+  right: -20%;
+  -webkit-animation: movidas 20s infinite 10s;
+}
+.mouth-back {
+  -webkit-animation: waka 0.3s infinite;
+  border-top: 100px solid transparent;
+  border-bottom: 100px solid transparent;
+  border-left: 100px solid black;
+  position: absolute;
+}
