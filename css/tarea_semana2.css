@@ -1,0 +1,11 @@
+/*tarea_semana2.css*/
+.font-pacman{
+	font-family: 'icomoon';
+}
+#pacman {
+	width    :136px;
+	height   : 136px;
+	font-size: 128px;
+	text-align: center;
+	overflow : hidden;
+}
