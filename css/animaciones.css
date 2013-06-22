@@ -1,7 +1,7 @@
 /* animaciones.css */
 
-@keyframes "pacman" {
- 0% {
+  @keyframes "pacman" {
+   0% {
     left: 50%;
     top: 50%;
     margin-left: -30px;
