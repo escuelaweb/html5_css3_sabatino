@@ -43,11 +43,11 @@ a, button {
 
 /* Hover effect for the whole navigation to make the hovered item stand out */
 
-.no-touch .nav ul:hover a {
+ .nav ul:hover a {
   color: rgba(249, 249, 249, .5);
 }
 
-.no-touch .nav ul:hover a:hover {
+ .nav ul:hover a:hover {
   color: rgba(249, 249, 249, 0.99);
 }
 
@@ -98,39 +98,39 @@ a, button {
   }
 
   /* hover, focused and active effects that add a little colored border to the different items */
-  .no-touch .nav li:nth-child(6n+1) a:hover,
-  .no-touch .nav li:nth-child(6n+1) a:active,
-  .no-touch .nav li:nth-child(6n+1) a:focus {
+   .nav li:nth-child(6n+1) a:hover,
+   .nav li:nth-child(6n+1) a:active,
+   .nav li:nth-child(6n+1) a:focus {
     border-bottom: 4px solid rgb(174, 78, 1);
   }
 
-  .no-touch .nav li:nth-child(6n+2) a:hover,
-  .no-touch .nav li:nth-child(6n+2) a:active,
-  .no-touch .nav li:nth-child(6n+2) a:focus {
+   .nav li:nth-child(6n+2) a:hover,
+   .nav li:nth-child(6n+2) a:active,
+   .nav li:nth-child(6n+2) a:focus {
     border-bottom: 4px solid rgb(191, 117, 20);
   }
 
-  .no-touch .nav li:nth-child(6n+3) a:hover,
-  .no-touch .nav li:nth-child(6n+3) a:active,
-  .no-touch .nav li:nth-child(6n+3) a:focus {
+   .nav li:nth-child(6n+3) a:hover,
+   .nav li:nth-child(6n+3) a:active,
+   .nav li:nth-child(6n+3) a:focus {
     border-bottom: 4px solid rgb(12, 110, 149);
   }
 
-  .no-touch .nav li:nth-child(6n+4) a:hover,
-  .no-touch .nav li:nth-child(6n+4) a:active,
-  .no-touch .nav li:nth-child(6n+4) a:focus {
+   .nav li:nth-child(6n+4) a:hover,
+   .nav li:nth-child(6n+4) a:active,
+   .nav li:nth-child(6n+4) a:focus {
     border-bottom: 4px solid rgb(10, 75, 117);
   }
 
-  .no-touch .nav li:nth-child(6n+5) a:hover,
-  .no-touch .nav li:nth-child(6n+5) a:active,
-  .no-touch .nav li:nth-child(6n+5) a:focus {
+   .nav li:nth-child(6n+5) a:hover,
+   .nav li:nth-child(6n+5) a:active,
+   .nav li:nth-child(6n+5) a:focus {
     border-bottom: 4px solid rgb(16, 34, 44);
   }
 
-  .no-touch .nav li:nth-child(6n+6) a:hover,
-  .no-touch .nav li:nth-child(6n+6) a:active,
-  .no-touch .nav li:nth-child(6n+6) a:focus {
+   .nav li:nth-child(6n+6) a:hover,
+   .nav li:nth-child(6n+6) a:active,
+   .nav li:nth-child(6n+6) a:focus {
     border-bottom: 4px solid rgb(9, 18, 25);
   }
 
@@ -154,14 +154,14 @@ a, button {
     height: 9em;
   }
 
-  .no-touch .nav a:hover ,
+   .nav a:hover ,
   .nav a:active ,
   .nav a:focus {
     height: 10em;
   } 
 
   /* Making the text follow the height animation */
-  .no-touch .nav a:hover .icon + span {
+   .nav a:hover .icon + span {
     margin-top: 3.2em;
     -webkit-transition: margin .5s;
     -moz-transition: margin .5s;
@@ -193,9 +193,9 @@ a, button {
   } 
   
   /* Animate the box-shadow to create the effect */
-  .no-touch .nav a:hover i,
-  .no-touch .nav a:active i,
-  .no-touch .nav a:focus i {    
+   .nav a:hover i,
+   .nav a:active i,
+   .nav a:focus i {    
     box-shadow: 0 0 0 0 rgba(255,255,255,0.2);
     -webkit-transition: box-shadow .4s ease-in-out;
     -moz-transition: box-shadow .4s ease-in-out;
@@ -220,39 +220,39 @@ a, button {
 @media (max-width: 49.938em) {    
   
   /* Instead of adding a border, we transition the background color */
-  .no-touch .nav ul li:nth-child(6n+1) a:hover,
-  .no-touch .nav ul li:nth-child(6n+1) a:active,
-  .no-touch .nav ul li:nth-child(6n+1) a:focus {
+   .nav ul li:nth-child(6n+1) a:hover,
+   .nav ul li:nth-child(6n+1) a:active,
+   .nav ul li:nth-child(6n+1) a:focus {
     background: rgb(227, 119, 20);
   }
 
-  .no-touch .nav li:nth-child(6n+2) a:hover,
-  .no-touch .nav li:nth-child(6n+2) a:active,
-  .no-touch .nav li:nth-child(6n+2) a:focus {
+   .nav li:nth-child(6n+2) a:hover,
+   .nav li:nth-child(6n+2) a:active,
+   .nav li:nth-child(6n+2) a:focus {
     background: rgb(245, 160, 41);
   }
 
-  .no-touch .nav li:nth-child(6n+3) a:hover,
-  .no-touch .nav li:nth-child(6n+3) a:active,
-  .no-touch .nav li:nth-child(6n+3) a:focus {
+   .nav li:nth-child(6n+3) a:hover,
+   .nav li:nth-child(6n+3) a:active,
+   .nav li:nth-child(6n+3) a:focus {
     background: rgb(44, 168, 219);
   }
 
-  .no-touch .nav li:nth-child(6n+4) a:hover,
-  .no-touch .nav li:nth-child(6n+4) a:active,
-  .no-touch .nav li:nth-child(6n+4) a:focus {
+   .nav li:nth-child(6n+4) a:hover,
+   .nav li:nth-child(6n+4) a:active,
+   .nav li:nth-child(6n+4) a:focus {
     background: rgb(31, 120, 176);
   }
 
-  .no-touch .nav li:nth-child(6n+5) a:hover,
-  .no-touch .nav li:nth-child(6n+5) a:active,
-  .no-touch .nav li:nth-child(6n+5) a:focus {
+   .nav li:nth-child(6n+5) a:hover,
+   .nav li:nth-child(6n+5) a:active,
+   .nav li:nth-child(6n+5) a:focus {
     background: rgb(39, 70, 90);
   }
 
-  .no-touch .nav li:nth-child(6n+6) a:hover,
-  .no-touch .nav li:nth-child(6n+6) a:active,
-  .no-touch .nav li:nth-child(6n+6) a:focus {
+   .nav li:nth-child(6n+6) a:hover,
+   .nav li:nth-child(6n+6) a:active,
+   .nav li:nth-child(6n+6) a:focus {
     background: rgb(32, 54, 68);
   }
 
@@ -316,9 +316,9 @@ a, button {
   }
 
   /* Transition effect on the border color */
-  .no-touch .nav li:hover i,
-  .no-touch .nav li:active i,
-  .no-touch .nav li:focus i {
+   .nav li:hover i,
+   .nav li:active i,
+   .nav li:focus i {
     border: 4px solid rgba(255,255,255,0.1);
   }
   
