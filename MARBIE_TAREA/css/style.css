@@ -1,0 +1,268 @@
+
+body {
+    background-image: url("../images/ambiente.png");
+    margin: 0;
+    padding: 0;
+}
+
+#container {
+    height: 630px;
+    margin: 0 auto;
+    padding: 0;
+    width: 1350px;
+}
+
+.tronco1 {
+    background-image: url("../images/tronco11.png");
+    background-position: center top;
+    background-repeat: no-repeat;
+    float: left;
+    height: 670px;
+    margin-left: -50px;
+    margin-top: 0;
+    position: relative;
+    width: 33%;
+    color: 
+}
+
+.tronco2 {
+    background-image: url("../images/tronco22.png");
+    background-position: center top;
+    background-repeat: no-repeat;
+    float: right;
+    height: 670px;
+    margin-right: 0;
+    margin-top: 0;
+    position: relative;
+    width: 25%;
+}
+
+/*ANIMACION*/
+.cont-buho {
+    background-image: url("../images/buho.png");
+    background-position: -158px 0;
+    background-repeat: no-repeat;
+    height: 255px;
+    left: 12%;
+    position: absolute;
+    top: -5%;
+    width: 120px;
+}
+
+
+/* PARA LA ANIMACION POSICION FINAL DEL ELEMENTO */
+
+.buho-animado {
+    animation:  1s step-end infinite buho;
+    height: 255px;
+    left: 12%;
+    position: absolute;
+    top: -5%;
+    width: 120px;
+    background-image: url("../images/buho.png");
+    background-position: -158px 0;
+    background-repeat: no-repeat;
+    -webkit-transition: background 1s step-end;
+    -moz-transition: background 1s step-end;
+    -ms-transition: background 1s step-end;
+    -o-transition: background 1s step-end;
+    transition: background 1s step-end;
+}
+
+/*ANIMACION 2*/
+.cont-buho2 {
+    background-image: url("../images/buho.png");
+    background-position: -1664px 0;
+    background-repeat: no-repeat;
+    height: 255px;
+    left: 83%;
+    position: absolute;
+    top: 7%;
+    width: 205px;
+    margin-left: 0px;
+}
+
+
+/* PARA LA ANIMACION POSICION FINAL DEL ELEMENTO 2*/
+
+.buho-animado2 {
+    animation:  1s step-end 3 buhodos;
+    background-image: url("../images/buho.png");
+    background-position: -1662px 0;
+    background-repeat: no-repeat;
+    height: 255px;
+    left: 83%;
+    position: absolute;
+    top: 7%;
+    width: 205px;
+    -webkit-transition: background 1s step-end;
+    -moz-transition: background 1s step-end;
+    -ms-transition: background 1s step-end;
+    -o-transition: background 1s step-end;
+    transition: background 1s step-end;
+    margin-left: 0px;
+}
+
+/*.buho-animado2 { 
+    animation:  1s ease-in 1 buhotres;
+    background-image: url("../images/buhovolador1.png");
+    background-repeat: no-repeat;
+    width: 205px;
+    height: 255px;
+    left: 83%;
+    top: 7%;
+    position: absolute;    
+    -webkit-animation: 5s buhotres ease-in infinite;
+    -moz-animation: 5s buhotres ease-in infinite;
+    -ms-animation: 5s buhotres ease-in infinite;
+    -o-animation: 5s buhotres ease-in infinite;
+    animation: 5s buhotres ease-in infinite;
+    
+ }*/
+
+
+.cont-estrella {
+    background-image: url("../images/estrella.png");
+    background-repeat: no-repeat;
+    height: 25px;
+    left: 50%;
+    position: absolute;
+    top: 20%;
+    width: 25px;
+}
+
+.estrella-animada {
+    animation:  1s step-start infinite estrella;
+    background-image: url("../images/estrella.png");
+    background-repeat: no-repeat;
+    -webkit-transition: background 1s step-end;
+    -moz-transition: background 1s step-end;
+    -ms-transition: background 1s step-end;
+    -o-transition: background 1s step-end;
+    transition: background 1s step-end;
+    }
+
+.cont-estrella2 {
+    background-image: url("../images/estrella.png");
+    background-repeat: no-repeat;
+    height: 25px;
+    left: 60%;
+    position: absolute;
+    top: 5%;
+    width: 25px;
+}
+.cont-estrella3 {
+    background-image: url("../images/estrella.png");
+    background-repeat: no-repeat;
+    height: 25px;
+    left: 25%;
+    position: absolute;
+    top: 20%;
+    width: 25px;
+}
+.cont-estrella4 {
+    background-image: url("../images/estrella.png");
+    background-repeat: no-repeat;
+    height: 25px;
+    left: 37%;
+    position: absolute;
+    top: 5%;
+    width: 25px;
+}
+
+.cont-estrella5 {
+    background-image: url("../images/estrella.png");
+    background-repeat: no-repeat;
+    height: 25px;
+    left: 75%;
+    position: absolute;
+    top: 25%;
+    width: 25px;
+}
+
+
+/*ANIMACION*/
+.cont-buho4 {
+    height: 255px;
+    left: 75%;
+    top: 50%;
+    position: absolute;    
+    width: 200px;
+}
+/* PARA LA ANIMACION POSICION FINAL DEL ELEMENTO */
+
+.buho-animado4 {
+    animation:  5s linear infinite buhocuatro;
+    width: 200px;
+    height: 255px;
+    left: 75%;
+    top: 50%;
+    position: absolute;
+    background-image: url("../images/buho.png");
+    background-position: -1666px 0;
+    background-repeat: no-repeat;
+    -webkit-transition: background 5s linear;
+    -moz-transition: background 5s linear;
+    -ms-transition: background 5s linear;
+    -o-transition: background 5s linear;
+    transition: background 5s linear;
+}
+
+/*ANIMACION*/
+.cont-hoja {
+    height: 50px;
+    left: 15%;
+    top: 50%;
+    position: absolute;    
+    width: 50px;
+}
+/* PARA LA ANIMACION POSICION FINAL DEL ELEMENTO */
+
+.hoja-animada {
+    animation:  5s linear 1 hoja;
+    height: 50px;
+    left: 15%;
+    position: absolute;
+    top: 95%;
+    width: 50px;
+    background-image: url("../images/hoja.png");
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    -webkit-transition: background 5s linear;
+    -moz-transition: background 5s linear;
+    -ms-transition: background 5s linear;
+    -o-transition: background 5s linear;
+    transition: background 5s linear;
+}
+
+/*ANIMACION*/
+.cont-hoja2 {
+    height: 50px;
+    left: 23%;
+    top: 45%;
+    position: absolute;    
+    width: 50px;
+}
+/* PARA LA ANIMACION POSICION FINAL DEL ELEMENTO */
+
+.hoja-animada2 {
+    animation:  3s linear infinite hoja2;
+    height: 50px;
+    left: 23%;
+    position: absolute;
+    top: 45%;
+    width: 50px;
+    background-image: url("../images/hoja.png");
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    -webkit-transition: background 5s linear;
+    -moz-transition: background 5s linear;
+    -ms-transition: background 5s linear;
+    -o-transition: background 5s linear;
+    transition: background 5s linear;
+}
+
+
+
+
+

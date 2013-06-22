@@ -1,0 +1,406 @@
+/*animacion2.css*/
+
+@keyframes "buhodos" {
+ 0% {
+    background-image: url("../images/buho.png");
+   	background-position: -162px 0;
+   	background-repeat: no-repeat;
+   	height: 255px;
+   	left: 83%;
+   	position: absolute;
+   	top: 7%;
+   	width: 120px;
+   	margin-left: 0px;
+ }
+ 16% {
+    background-image: url("../images/buho.png");
+   	background-position: -1029px 0;
+   	background-repeat: no-repeat;
+   	height: 255px;
+   	left: 83%;
+   	position: absolute;
+   	top: 7%;
+   	width: 138px;
+   	margin-left: -15px;
+ }
+ 32% {
+    background-image: url("../images/buho.png");
+   	background-position: -1205px 0;
+   	background-repeat: no-repeat;
+   	height: 255px;
+   	left: 83%;
+   	position: absolute;
+   	top: 7%;
+   	width: 230px;
+   	margin-left: -55px;
+ }
+ 48% {
+    background-image: url("../images/buho.png");
+   	background-position: -1435px 0;
+   	background-repeat: no-repeat;
+   	height: 255px;
+   	left: 83%;
+   	position: absolute;
+   	top: 7%;
+   	width: 225px;
+   	margin-left: -48px;
+ }
+ 64% {
+    background-image: url("../images/buho.png");
+   	background-position: -1205px 0;
+   	background-repeat: no-repeat;
+   	height: 255px;
+   	left: 83%;
+   	position: absolute;
+   	top: 7%;
+   	width: 230px;
+   	margin-left: -55px;
+ }
+ 82% {
+    background-image: url("../images/buho.png");
+   	background-position: -1029px 0;
+   	background-repeat: no-repeat;
+   	height: 255px;
+   	left: 83%;
+   	position: absolute;
+   	top: 7%;
+   	width: 138px;
+   	margin-left: -15px;
+ }
+ 100% {
+    background-image: url("../images/buho.png");
+   	background-position: -1662px 0;
+   	background-repeat: no-repeat;
+   	height: 255px;
+   	left: 83%;
+   	position: absolute;
+   	top: 7%;
+   	width: 120px;
+   	margin-left: 0px;
+ }
+
+}
+
+@-moz-keyframes buhodos {
+ 0% {
+   background-image: url("../images/buho.png");
+   background-position: -162px 0;
+   background-repeat: no-repeat;
+   height: 255px;
+   left: 83%;
+   position: absolute;
+   top: 7%;
+   width: 120px;
+   margin-left: 0px;
+ }
+ 16% {
+   background-image: url("../images/buho.png");
+   background-position: -1029px 0;
+   background-repeat: no-repeat;
+   height: 255px;
+   left: 83%;
+   position: absolute;
+   top: 7%;
+   width: 138px;
+   margin-left: -15px;
+ }
+ 32% {
+   background-image: url("../images/buho.png");
+   background-position: -1205px 0;
+   background-repeat: no-repeat;
+   height: 255px;
+   left: 83%;
+   position: absolute;
+   top: 7%;
+   width: 230px;
+   margin-left: -55px;
+ }
+ 48% {
+   background-image: url("../images/buho.png");
+   background-position: -1435px 0;
+   background-repeat: no-repeat;
+   height: 255px;
+   left: 83%;
+   position: absolute;
+   top: 7%;
+   width: 225px;
+   margin-left: -48px;
+ }
+ 64% {
+   background-image: url("../images/buho.png");
+   background-position: -1205px 0;
+   background-repeat: no-repeat;
+   height: 255px;
+   left: 83%;
+   position: absolute;
+   top: 7%;
+   width: 230px;
+   margin-left: -55px;
+ }
+ 82% {
+   background-image: url("../images/buho.png");
+   background-position: -1029px 0;
+   background-repeat: no-repeat;
+   height: 255px;
+   left: 83%;
+   position: absolute;
+   top: 7%;
+   width: 138px;
+   margin-left: -15px;
+ }
+ 100% {
+   background-image: url("../images/buho.png");
+   background-position: -1662px 0;
+   background-repeat: no-repeat;
+   height: 255px;
+   left: 83%;
+   position: absolute;
+   top: 7%;
+   width: 120px;
+   margin-left: 0px;
+ }
+
+}
+
+@-webkit-keyframes "buhodos" {
+ 0% {
+   background-image: url("../images/buho.png");
+   background-position: -162px 0;
+   background-repeat: no-repeat;
+   height: 255px;
+   left: 83%;
+   position: absolute;
+   top: 7%;
+   width: 120px;
+   margin-left: 0px;
+ }
+ 16% {
+   background-image: url("../images/buho.png");
+   background-position: -1029px 0;
+   background-repeat: no-repeat;
+   height: 255px;
+   left: 83%;
+   position: absolute;
+   top: 7%;
+   width: 138px;
+   margin-left: -15px;
+ }
+ 32% {
+   background-image: url("../images/buho.png");
+   background-position: -1205px 0;
+   background-repeat: no-repeat;
+   height: 255px;
+   left: 83%;
+   position: absolute;
+   top: 7%;
+   width: 230px;
+   margin-left: -55px;
+ }
+ 48% {
+   background-image: url("../images/buho.png");
+   background-position: -1435px 0;
+   background-repeat: no-repeat;
+   height: 255px;
+   left: 83%;
+   position: absolute;
+   top: 7%;
+   width: 225px;
+   margin-left: -48px;
+ }
+ 64% {
+   background-image: url("../images/buho.png");
+   background-position: -1205px 0;
+   background-repeat: no-repeat;
+   height: 255px;
+   left: 83%;
+   position: absolute;
+   top: 7%;
+   width: 230px;
+   margin-left: -55px;
+ }
+ 82% {
+   background-image: url("../images/buho.png");
+   background-position: -1029px 0;
+   background-repeat: no-repeat;
+   height: 255px;
+   left: 83%;
+   position: absolute;
+   top: 7%;
+   width: 138px;
+   margin-left: -15px;
+ }
+ 100% {
+   background-image: url("../images/buho.png");
+   background-position: -1662px 0;
+   background-repeat: no-repeat;
+   height: 255px;
+   left: 83%;
+   position: absolute;
+   top: 7%;
+   width: 120px;
+   margin-left: 0px;
+ }
+
+}
+
+@-ms-keyframes "buhodos" {
+ 0% {
+   background-image: url("../images/buho.png");
+   background-position: -162px 0;
+   background-repeat: no-repeat;
+   height: 255px;
+   left: 83%;
+   position: absolute;
+   top: 7%;
+   width: 120px;
+   margin-left: 0px;
+ }
+ 16% {
+   background-image: url("../images/buho.png");
+   background-position: -1029px 0;
+   background-repeat: no-repeat;
+   height: 255px;
+   left: 83%;
+   position: absolute;
+   top: 7%;
+   width: 138px;
+   margin-left: -15px;
+ }
+ 32% {
+   background-image: url("../images/buho.png");
+   background-position: -1205px 0;
+   background-repeat: no-repeat;
+   height: 255px;
+   left: 83%;
+   position: absolute;
+   top: 7%;
+   width: 230px;
+   margin-left: -55px;
+ }
+ 48% {
+   background-image: url("../images/buho.png");
+   background-position: -1435px 0;
+   background-repeat: no-repeat;
+   height: 255px;
+   left: 83%;
+   position: absolute;
+   top: 7%;
+   width: 225px;
+   margin-left: -48px;
+ }
+ 64% {
+   background-image: url("../images/buho.png");
+   background-position: -1205px 0;
+   background-repeat: no-repeat;
+   height: 255px;
+   left: 83%;
+   position: absolute;
+   top: 7%;
+   width: 230px;
+   margin-left: -55px;
+ }
+ 82% {
+   background-image: url("../images/buho.png");
+   background-position: -1029px 0;
+   background-repeat: no-repeat;
+   height: 255px;
+   left: 83%;
+   position: absolute;
+   top: 7%;
+   width: 138px;
+   margin-left: -15px;
+ }
+ 100% {
+   background-image: url("../images/buho.png");
+   background-position: -1662px 0;
+   background-repeat: no-repeat;
+   height: 255px;
+   left: 83%;
+   position: absolute;
+   top: 7%;
+   width: 120px;
+   margin-left: 0px;
+ }
+
+}
+
+@-o-keyframes "buhodos" {
+ 0% {
+   background-image: url("../images/buho.png");
+   background-position: -162px 0;
+   background-repeat: no-repeat;
+   height: 255px;
+   left: 83%;
+   position: absolute;
+   top: 7%;
+   width: 120px;
+   margin-left: 0px;
+ }
+ 16% {
+   background-image: url("../images/buho.png");
+   background-position: -1029px 0;
+   background-repeat: no-repeat;
+   height: 255px;
+   left: 83%;
+   position: absolute;
+   top: 7%;
+   width: 138px;
+   margin-left: -15px;
+ }
+ 32% {
+   background-image: url("../images/buho.png");
+   background-position: -1205px 0;
+   background-repeat: no-repeat;
+   height: 255px;
+   left: 83%;
+   position: absolute;
+   top: 7%;
+   width: 230px;
+   margin-left: -55px;
+ }
+ 48% {
+   background-image: url("../images/buho.png");
+   background-position: -1435px 0;
+   background-repeat: no-repeat;
+   height: 255px;
+   left: 83%;
+   position: absolute;
+   top: 7%;
+   width: 225px;
+   margin-left: -48px;
+ }
+ 64% {
+   background-image: url("../images/buho.png");
+   background-position: -1205px 0;
+   background-repeat: no-repeat;
+   height: 255px;
+   left: 83%;
+   position: absolute;
+   top: 7%;
+   width: 230px;
+   margin-left: -55px;
+ }
+ 82% {
+   background-image: url("../images/buho.png");
+   background-position: -1029px 0;
+   background-repeat: no-repeat;
+   height: 255px;
+   left: 83%;
+   position: absolute;
+   top: 7%;
+   width: 138px;
+   margin-left: -15px;
+ }
+ 100% {
+   background-image: url("../images/buho.png");
+   background-position: -1662px 0;
+   background-repeat: no-repeat;
+   height: 255px;
+   left: 83%;
+   position: absolute;
+   top: 7%;
+   width: 120px;
+   margin-left: 0px;
+ }
+
+}

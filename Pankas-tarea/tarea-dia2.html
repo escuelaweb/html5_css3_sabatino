@@ -1,0 +1,368 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Animación - Tarea día 2</title>
+	<link rel="stylesheet" href="fonts/tarea-dia-260572/style.css">
+	<link rel="stylesheet" href="css/keyframes-tarea-dia2.css">
+
+	<style>
+		h1{
+			width: 90%;
+			font-family: Arial, Helvetica, sans-serif;
+			color:#400080;
+			margin: 0 auto;
+		}
+
+		#working-space{
+			width: 90%;
+			height: 500px;
+			border: 3px solid #400080;
+			position: relative;
+			margin: 0 auto;
+		}
+
+		#working-space span{
+			display: block;
+			font-family: 'tarea-dia-2';
+			font-size: 66px;
+			position: absolute;
+		}
+
+		#working-space .insecto{
+			color: #800040;
+			top: 0;
+			left: 0;
+
+			-webkit-animation: insecto 10s infinite;
+			-moz-animation: insecto 10s infinite;
+			-ms-animation: insecto 10s infinite;
+			-o-animation: insecto 10s infinite;
+			animation: insecto 10s infinite;
+
+			-webkit-transform: rotate(90deg);
+			-moz-transform: rotate(90deg);
+			-o-transform: rotate(90deg);
+			-ms-transform: rotate(90deg);
+			transform: rotate(90deg);
+		}
+
+		#working-space .cohete{
+			color: #808080;
+			bottom: 10px;
+			left: 10px;
+		}
+
+		#working-space .cohete:hover{
+			-webkit-animation: cohete 5s 1;
+			-moz-animation: cohete 5s 1;
+			-ms-animation: cohete 5s 1;
+			-o-animation: cohete 5s 1;
+			animation: cohete 5s 1;
+		}
+
+@keyframes "cohete" {
+ 15% {
+    color: #AE5C51;
+   	bottom: 20px;
+   	left: 30px;
+   	-webkit-transform: rotate(15deg);
+   	-moz-transform: rotate(15deg);
+   	-o-transform: rotate(15deg);
+   	-ms-transform: rotate(15deg);
+   	transform: rotate(15deg);
+ }
+ 24% {
+    color: #CD3823;
+   	bottom: 40px;
+   	left: 70px;
+   	-webkit-transform: rotate(30deg);
+   	-moz-transform: rotate(30deg);
+   	-o-transform: rotate(30deg);
+   	-ms-transform: rotate(30deg);
+   	transform: rotate(30deg);
+ }
+ 36% {
+    color: #EB2914;
+   	bottom: 70px;
+   	left: 130px;
+   	-webkit-transform: rotate(45deg);
+   	-moz-transform: rotate(45deg);
+   	-o-transform: rotate(45deg);
+   	-ms-transform: rotate(45deg);
+   	transform: rotate(45deg);
+ }
+ 51% {
+    color: #EB3D38;
+   	bottom: 110px;
+   	left: 210px;
+   	-webkit-transform: rotate(60deg);
+   	-moz-transform: rotate(60deg);
+   	-o-transform: rotate(60deg);
+   	-ms-transform: rotate(60deg);
+   	transform: rotate(60deg);
+ }
+ 69% {
+    color: #FB5404;
+   	bottom: 160px;
+   	left: 310px;
+   	-webkit-transform: rotate(75deg);
+   	-moz-transform: rotate(75deg);
+   	-o-transform: rotate(75deg);
+   	-ms-transform: rotate(75deg);
+   	transform: rotate(75deg);
+ }
+ 90% {
+    color: #FD6B13;
+   	bottom: 220px;
+   	left: 430px;
+   	-webkit-transform: rotate(90deg);
+   	-moz-transform: rotate(90deg);
+   	-o-transform: rotate(90deg);
+   	-ms-transform: rotate(90deg);
+   	transform: rotate(90deg);
+ }
+ 100% {
+    color: #FD6B13;
+   	bottom: 1000%;
+   	left: 1000%;
+   	-webkit-transform: rotate(15deg);
+   	-moz-transform: rotate(15deg);
+   	-o-transform: rotate(15deg);
+   	-ms-transform: rotate(15deg);
+   	transform: rotate(15deg);
+ }
+
+}
+
+@-moz-keyframes cohete {
+ 15% {
+   color: #AE5C51;
+   bottom: 20px;
+   left: 30px;
+   -moz-transform: rotate(15deg);
+   transform: rotate(15deg);
+ }
+ 24% {
+   color: #CD3823;
+   bottom: 40px;
+   left: 70px;
+   -moz-transform: rotate(30deg);
+   transform: rotate(30deg);
+ }
+ 36% {
+   color: #EB2914;
+   bottom: 70px;
+   left: 130px;
+   -moz-transform: rotate(45deg);
+   transform: rotate(45deg);
+ }
+ 51% {
+   color: #EB3D38;
+   bottom: 110px;
+   left: 210px;
+   -moz-transform: rotate(60deg);
+   transform: rotate(60deg);
+ }
+ 69% {
+   color: #FB5404;
+   bottom: 160px;
+   left: 310px;
+   -moz-transform: rotate(75deg);
+   transform: rotate(75deg);
+ }
+ 90% {
+   color: #FD6B13;
+   bottom: 220px;
+   left: 430px;
+   -moz-transform: rotate(90deg);
+   transform: rotate(90deg);
+ }
+ 100% {
+   color: #FD6B13;
+   bottom: 1000%;
+   left: 1000%;
+   -moz-transform: rotate(15deg);
+   transform: rotate(15deg);
+ }
+
+}
+
+@-webkit-keyframes "cohete" {
+ 15% {
+   color: #AE5C51;
+   bottom: 20px;
+   left: 30px;
+   -webkit-transform: rotate(15deg);
+   transform: rotate(15deg);
+ }
+ 24% {
+   color: #CD3823;
+   bottom: 40px;
+   left: 70px;
+   -webkit-transform: rotate(30deg);
+   transform: rotate(30deg);
+ }
+ 36% {
+   color: #EB2914;
+   bottom: 70px;
+   left: 130px;
+   -webkit-transform: rotate(45deg);
+   transform: rotate(45deg);
+ }
+ 51% {
+   color: #EB3D38;
+   bottom: 110px;
+   left: 210px;
+   -webkit-transform: rotate(60deg);
+   transform: rotate(60deg);
+ }
+ 69% {
+   color: #FB5404;
+   bottom: 160px;
+   left: 310px;
+   -webkit-transform: rotate(75deg);
+   transform: rotate(75deg);
+ }
+ 90% {
+   color: #FD6B13;
+   bottom: 220px;
+   left: 430px;
+   -webkit-transform: rotate(90deg);
+   transform: rotate(90deg);
+ }
+ 100% {
+   color: #FD6B13;
+   bottom: 1000%;
+   left: 1000%;
+   -webkit-transform: rotate(15deg);
+   transform: rotate(15deg);
+ }
+
+}
+
+@-ms-keyframes "cohete" {
+ 15% {
+   color: #AE5C51;
+   bottom: 20px;
+   left: 30px;
+   -ms-transform: rotate(15deg);
+   transform: rotate(15deg);
+ }
+ 24% {
+   color: #CD3823;
+   bottom: 40px;
+   left: 70px;
+   -ms-transform: rotate(30deg);
+   transform: rotate(30deg);
+ }
+ 36% {
+   color: #EB2914;
+   bottom: 70px;
+   left: 130px;
+   -ms-transform: rotate(45deg);
+   transform: rotate(45deg);
+ }
+ 51% {
+   color: #EB3D38;
+   bottom: 110px;
+   left: 210px;
+   -ms-transform: rotate(60deg);
+   transform: rotate(60deg);
+ }
+ 69% {
+   color: #FB5404;
+   bottom: 160px;
+   left: 310px;
+   -ms-transform: rotate(75deg);
+   transform: rotate(75deg);
+ }
+ 90% {
+   color: #FD6B13;
+   bottom: 220px;
+   left: 430px;
+   -ms-transform: rotate(90deg);
+   transform: rotate(90deg);
+ }
+ 100% {
+   color: #FD6B13;
+   bottom: 1000%;
+   left: 1000%;
+   -ms-transform: rotate(15deg);
+   transform: rotate(15deg);
+ }
+
+}
+
+@-o-keyframes "cohete" {
+ 15% {
+   color: #AE5C51;
+   bottom: 20px;
+   left: 30px;
+   -o-transform: rotate(15deg);
+   transform: rotate(15deg);
+ }
+ 24% {
+   color: #CD3823;
+   bottom: 40px;
+   left: 70px;
+   -o-transform: rotate(30deg);
+   transform: rotate(30deg);
+ }
+ 36% {
+   color: #EB2914;
+   bottom: 70px;
+   left: 130px;
+   -o-transform: rotate(45deg);
+   transform: rotate(45deg);
+ }
+ 51% {
+   color: #EB3D38;
+   bottom: 110px;
+   left: 210px;
+   -o-transform: rotate(60deg);
+   transform: rotate(60deg);
+ }
+ 69% {
+   color: #FB5404;
+   bottom: 160px;
+   left: 310px;
+   -o-transform: rotate(75deg);
+   transform: rotate(75deg);
+ }
+ 90% {
+   color: #FD6B13;
+   bottom: 220px;
+   left: 430px;
+   -o-transform: rotate(90deg);
+   transform: rotate(90deg);
+ }
+ 100% {
+   color: #FD6B13;
+   bottom: 1000%;
+   left: 1000%;
+   -o-transform: rotate(15deg);
+   transform: rotate(15deg);
+ }
+
+}
+
+
+		
+
+	</style>
+
+
+</head>
+<body>
+	<h1>Animación</h1>
+
+
+	<section id="working-space">
+		<span class="insecto">&#x42;</span>
+		<span class="cohete">&#x41;</span>
+	</section>
+
+	
+</body>
+</html>

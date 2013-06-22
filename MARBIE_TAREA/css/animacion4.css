@@ -1,0 +1,117 @@
+/*animacion4.css*/
+
+@keyframes "estrella" {
+ 0% {
+    height: 25px;
+   	width: 25px;
+   	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";
+   	filter: alpha(opacity=80);
+   	opacity: 0.8;
+ }
+ 50% {
+    height: 50px;
+   	width: 50px;
+   	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+   	filter: alpha(opacity=100);
+   	opacity: 1;
+ }
+ 100% {
+    height: 25px;
+   	width: 25px;
+   	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";
+   	filter: alpha(opacity=80);
+   	opacity: 0.8;
+ }
+
+}
+
+@-moz-keyframes estrella {
+ 0% {
+   height: 25px;
+   width: 25px;
+   filter: alpha(opacity=80);
+   opacity: 0.8;
+ }
+ 50% {
+   height: 50px;
+   width: 50px;
+   filter: alpha(opacity=100);
+   opacity: 1;
+ }
+ 100% {
+   height: 25px;
+   width: 25px;
+   filter: alpha(opacity=80);
+   opacity: 0.8;
+ }
+
+}
+
+@-webkit-keyframes "estrella" {
+ 0% {
+   height: 25px;
+   width: 25px;
+   filter: alpha(opacity=80);
+   opacity: 0.8;
+ }
+ 50% {
+   height: 50px;
+   width: 50px;
+   filter: alpha(opacity=100);
+   opacity: 1;
+ }
+ 100% {
+   height: 25px;
+   width: 25px;
+   filter: alpha(opacity=80);
+   opacity: 0.8;
+ }
+
+}
+
+@-ms-keyframes "estrella" {
+ 0% {
+   height: 25px;
+   width: 25px;
+   -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";
+   filter: alpha(opacity=80);
+   opacity: 0.8;
+ }
+ 50% {
+   height: 50px;
+   width: 50px;
+   -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+   filter: alpha(opacity=100);
+   opacity: 1;
+ }
+ 100% {
+   height: 25px;
+   width: 25px;
+   -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";
+   filter: alpha(opacity=80);
+   opacity: 0.8;
+ }
+
+}
+
+@-o-keyframes "estrella" {
+ 0% {
+   height: 25px;
+   width: 25px;
+   filter: alpha(opacity=80);
+   opacity: 0.8;
+ }
+ 50% {
+   height: 50px;
+   width: 50px;
+   filter: alpha(opacity=100);
+   opacity: 1;
+ }
+ 100% {
+   height: 25px;
+   width: 25px;
+   filter: alpha(opacity=80);
+   opacity: 0.8;
+ }
+
+}

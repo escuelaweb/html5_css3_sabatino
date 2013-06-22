@@ -1,0 +1,471 @@
+/* animaciones.css */
+
+@keyframes "buho" {
+ 0% {
+    background-image: url("../images/buho.png");
+    background-position: -162px 0;
+    background-repeat: no-repeat;
+    height: 255px;
+    left: 12%;
+    position: absolute;
+    top: -5%;
+    width: 120px;
+ }
+ 12% {
+    background-image: url("../images/buho.png");
+    background-position: -308px 0;
+    background-repeat: no-repeat;
+    height: 255px;
+    left: 12%;
+    position: absolute;
+    top: -5%;
+    width: 120px;
+ }
+ 24% {
+    background-image: url("../images/buho.png");
+    background-position: -451px 0;
+    background-repeat: no-repeat;
+    height: 255px;
+    left: 12%;
+    position: absolute;
+    top: -5%;
+    width: 120px;
+ }
+ 36% {
+    background-image: url("../images/buho.png");
+    background-position: -308px 0;
+    background-repeat: no-repeat;
+    height: 255px;
+    left: 12%;
+    position: absolute;
+    top: -5%;
+    width: 120px;
+ }
+ 48% {
+    background-image: url("../images/buho.png");
+    background-position: -601px 0;
+    background-repeat: no-repeat;
+    height: 255px;
+    left: 12%;
+    position: absolute;
+    top: -5%;
+    width: 120px;
+ }
+ 60% {
+    background-image: url("../images/buho.png");
+    background-position: -740px 0;
+    background-repeat: no-repeat;
+    height: 255px;
+    left: 12%;
+    position: absolute;
+    top: -5%;
+    width: 130px;
+ }
+ 72% {
+    background-image: url("../images/buho.png");
+    background-position: -876px 0;
+    background-repeat: no-repeat;
+    height: 255px;
+    left: 12%;
+    position: absolute;
+    top: -5%;
+    width: 130px;
+ }
+ 86% {
+    background-image: url("../images/buho.png");
+    background-position: -740px 0;
+    background-repeat: no-repeat;
+    height: 255px;
+    left: 12%;
+    position: absolute;
+    top: -5%;
+    width: 130px;
+ }
+ 100% {
+    background-image: url("../images/buho.png");
+    background-position: -601px 0;
+    background-repeat: no-repeat;
+    height: 255px;
+    left: 12%;
+    position: absolute;
+    top: -5%;
+    width: 140px;
+ }
+
+}
+
+@-moz-keyframes buho {
+ 0% {
+   background-image: url("../images/buho.png");
+   background-position: -162px 0;
+   background-repeat: no-repeat;
+   height: 255px;
+   left: 12%;
+   position: absolute;
+   top: -5%;
+   width: 120px;
+ }
+ 12% {
+   background-image: url("../images/buho.png");
+   background-position: -308px 0;
+   background-repeat: no-repeat;
+   height: 255px;
+   left: 12%;
+   position: absolute;
+   top: -5%;
+   width: 120px;
+ }
+ 24% {
+   background-image: url("../images/buho.png");
+   background-position: -451px 0;
+   background-repeat: no-repeat;
+   height: 255px;
+   left: 12%;
+   position: absolute;
+   top: -5%;
+   width: 120px;
+ }
+ 36% {
+   background-image: url("../images/buho.png");
+   background-position: -308px 0;
+   background-repeat: no-repeat;
+   height: 255px;
+   left: 12%;
+   position: absolute;
+   top: -5%;
+   width: 120px;
+ }
+ 48% {
+   background-image: url("../images/buho.png");
+   background-position: -601px 0;
+   background-repeat: no-repeat;
+   height: 255px;
+   left: 12%;
+   position: absolute;
+   top: -5%;
+   width: 120px;
+ }
+ 60% {
+   background-image: url("../images/buho.png");
+   background-position: -740px 0;
+   background-repeat: no-repeat;
+   height: 255px;
+   left: 12%;
+   position: absolute;
+   top: -5%;
+   width: 130px;
+ }
+ 72% {
+   background-image: url("../images/buho.png");
+   background-position: -876px 0;
+   background-repeat: no-repeat;
+   height: 255px;
+   left: 12%;
+   position: absolute;
+   top: -5%;
+   width: 130px;
+ }
+ 86% {
+   background-image: url("../images/buho.png");
+   background-position: -740px 0;
+   background-repeat: no-repeat;
+   height: 255px;
+   left: 12%;
+   position: absolute;
+   top: -5%;
+   width: 130px;
+ }
+ 100% {
+   background-image: url("../images/buho.png");
+   background-position: -601px 0;
+   background-repeat: no-repeat;
+   height: 255px;
+   left: 12%;
+   position: absolute;
+   top: -5%;
+   width: 140px;
+ }
+
+}
+
+@-webkit-keyframes "buho" {
+ 0% {
+   background-image: url("../images/buho.png");
+   background-position: -162px 0;
+   background-repeat: no-repeat;
+   height: 255px;
+   left: 12%;
+   position: absolute;
+   top: -5%;
+   width: 120px;
+ }
+ 12% {
+   background-image: url("../images/buho.png");
+   background-position: -308px 0;
+   background-repeat: no-repeat;
+   height: 255px;
+   left: 12%;
+   position: absolute;
+   top: -5%;
+   width: 120px;
+ }
+ 24% {
+   background-image: url("../images/buho.png");
+   background-position: -451px 0;
+   background-repeat: no-repeat;
+   height: 255px;
+   left: 12%;
+   position: absolute;
+   top: -5%;
+   width: 120px;
+ }
+ 36% {
+   background-image: url("../images/buho.png");
+   background-position: -308px 0;
+   background-repeat: no-repeat;
+   height: 255px;
+   left: 12%;
+   position: absolute;
+   top: -5%;
+   width: 120px;
+ }
+ 48% {
+   background-image: url("../images/buho.png");
+   background-position: -601px 0;
+   background-repeat: no-repeat;
+   height: 255px;
+   left: 12%;
+   position: absolute;
+   top: -5%;
+   width: 120px;
+ }
+ 60% {
+   background-image: url("../images/buho.png");
+   background-position: -740px 0;
+   background-repeat: no-repeat;
+   height: 255px;
+   left: 12%;
+   position: absolute;
+   top: -5%;
+   width: 130px;
+ }
+ 72% {
+   background-image: url("../images/buho.png");
+   background-position: -876px 0;
+   background-repeat: no-repeat;
+   height: 255px;
+   left: 12%;
+   position: absolute;
+   top: -5%;
+   width: 130px;
+ }
+ 86% {
+   background-image: url("../images/buho.png");
+   background-position: -740px 0;
+   background-repeat: no-repeat;
+   height: 255px;
+   left: 12%;
+   position: absolute;
+   top: -5%;
+   width: 130px;
+ }
+ 100% {
+   background-image: url("../images/buho.png");
+   background-position: -601px 0;
+   background-repeat: no-repeat;
+   height: 255px;
+   left: 12%;
+   position: absolute;
+   top: -5%;
+   width: 140px;
+ }
+
+}
+
+@-ms-keyframes "buho" {
+ 0% {
+   background-image: url("../images/buho.png");
+   background-position: -162px 0;
+   background-repeat: no-repeat;
+   height: 255px;
+   left: 12%;
+   position: absolute;
+   top: -5%;
+   width: 120px;
+ }
+ 12% {
+   background-image: url("../images/buho.png");
+   background-position: -308px 0;
+   background-repeat: no-repeat;
+   height: 255px;
+   left: 12%;
+   position: absolute;
+   top: -5%;
+   width: 120px;
+ }
+ 24% {
+   background-image: url("../images/buho.png");
+   background-position: -451px 0;
+   background-repeat: no-repeat;
+   height: 255px;
+   left: 12%;
+   position: absolute;
+   top: -5%;
+   width: 120px;
+ }
+ 36% {
+   background-image: url("../images/buho.png");
+   background-position: -308px 0;
+   background-repeat: no-repeat;
+   height: 255px;
+   left: 12%;
+   position: absolute;
+   top: -5%;
+   width: 120px;
+ }
+ 48% {
+   background-image: url("../images/buho.png");
+   background-position: -601px 0;
+   background-repeat: no-repeat;
+   height: 255px;
+   left: 12%;
+   position: absolute;
+   top: -5%;
+   width: 120px;
+ }
+ 60% {
+   background-image: url("../images/buho.png");
+   background-position: -740px 0;
+   background-repeat: no-repeat;
+   height: 255px;
+   left: 12%;
+   position: absolute;
+   top: -5%;
+   width: 130px;
+ }
+ 72% {
+   background-image: url("../images/buho.png");
+   background-position: -876px 0;
+   background-repeat: no-repeat;
+   height: 255px;
+   left: 12%;
+   position: absolute;
+   top: -5%;
+   width: 130px;
+ }
+ 86% {
+   background-image: url("../images/buho.png");
+   background-position: -740px 0;
+   background-repeat: no-repeat;
+   height: 255px;
+   left: 12%;
+   position: absolute;
+   top: -5%;
+   width: 130px;
+ }
+ 100% {
+   background-image: url("../images/buho.png");
+   background-position: -601px 0;
+   background-repeat: no-repeat;
+   height: 255px;
+   left: 12%;
+   position: absolute;
+   top: -5%;
+   width: 140px;
+ }
+
+}
+
+@-o-keyframes "buho" {
+ 0% {
+   background-image: url("../images/buho.png");
+   background-position: -162px 0;
+   background-repeat: no-repeat;
+   height: 255px;
+   left: 12%;
+   position: absolute;
+   top: -5%;
+   width: 120px;
+ }
+ 12% {
+   background-image: url("../images/buho.png");
+   background-position: -308px 0;
+   background-repeat: no-repeat;
+   height: 255px;
+   left: 12%;
+   position: absolute;
+   top: -5%;
+   width: 120px;
+ }
+ 24% {
+   background-image: url("../images/buho.png");
+   background-position: -451px 0;
+   background-repeat: no-repeat;
+   height: 255px;
+   left: 12%;
+   position: absolute;
+   top: -5%;
+   width: 120px;
+ }
+ 36% {
+   background-image: url("../images/buho.png");
+   background-position: -308px 0;
+   background-repeat: no-repeat;
+   height: 255px;
+   left: 12%;
+   position: absolute;
+   top: -5%;
+   width: 120px;
+ }
+ 48% {
+   background-image: url("../images/buho.png");
+   background-position: -601px 0;
+   background-repeat: no-repeat;
+   height: 255px;
+   left: 12%;
+   position: absolute;
+   top: -5%;
+   width: 120px;
+ }
+ 60% {
+   background-image: url("../images/buho.png");
+   background-position: -740px 0;
+   background-repeat: no-repeat;
+   height: 255px;
+   left: 12%;
+   position: absolute;
+   top: -5%;
+   width: 130px;
+ }
+ 72% {
+   background-image: url("../images/buho.png");
+   background-position: -876px 0;
+   background-repeat: no-repeat;
+   height: 255px;
+   left: 12%;
+   position: absolute;
+   top: -5%;
+   width: 130px;
+ }
+ 86% {
+   background-image: url("../images/buho.png");
+   background-position: -740px 0;
+   background-repeat: no-repeat;
+   height: 255px;
+   left: 12%;
+   position: absolute;
+   top: -5%;
+   width: 130px;
+ }
+ 100% {
+   background-image: url("../images/buho.png");
+   background-position: -601px 0;
+   background-repeat: no-repeat;
+   height: 255px;
+   left: 12%;
+   position: absolute;
+   top: -5%;
+   width: 140px;
+ }
+
+}

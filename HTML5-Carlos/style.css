@@ -1,0 +1,318 @@
+body { 
+  margin:0;
+  padding:0;
+  background:#FFF;
+  overflow:hidden;
+ }
+
+@-webkit-keyframes diamond1 {
+   0% {
+		margin-left: 0; 
+  		margin-top: 0;
+      }
+   20% {
+		margin-left: 100px; 
+  		margin-top: 200px;
+      }
+   60% {
+		margin-left: 300px; 
+  		margin-top: 100px;
+      }
+   70% {
+		margin-left: 150px; 
+  		margin-top: 20px;
+      }
+   90% {
+		margin-left: 30px; 
+  		margin-top: 20px;
+      }
+   100% {
+		margin-left: 500px; 
+  		margin-top: 50px;
+      }
+}
+
+@-webkit-keyframes diamond2 {
+   0% {
+		margin-left: 0; 
+  		margin-top: 0;
+      }
+   20% {
+		margin-left: 500px; 
+  		margin-top: 10px;
+      }
+   60% {
+		margin-left: 100px; 
+  		margin-top: 100px;
+      }
+   70% {
+		margin-left: 150px; 
+  		margin-top: 20px;
+      }
+   90% {
+		margin-left: 30px; 
+  		margin-top: 20px;
+      }
+   100% {
+		margin-left: 500px; 
+  		margin-top: 50px;
+      }
+}
+
+@-webkit-keyframes round2 {
+   0% {
+		margin-left: 0; 
+  		margin-top: 0;
+      }
+   20% {
+		margin-left: 200px; 
+  		margin-top: -400px;
+      }
+   60% {
+		margin-left: -300px; 
+  		margin-top: -100px;
+      }
+   70% {
+		margin-left: -50px; 
+  		margin-top: -220px;
+      }
+   90% {
+		margin-left: 30px; 
+  		margin-top: 20px;
+      }
+   100% {
+		margin-left: 50px; 
+  		margin-top: 50px;
+      }
+}
+
+
+@-webkit-keyframes round3 {
+   0% {
+		margin-left: 0; 
+  		margin-top: 0;
+      }
+   20% {
+		margin-left: 200px; 
+  		margin-top: -100px;
+      }
+   60% {
+		margin-left: 70px; 
+  		margin-top: -100px;
+      }
+   70% {
+		margin-left: -50px; 
+  		margin-top: -220px;
+      }
+   90% {
+		margin-left: -30px; 
+  		margin-top: 120px;
+      }
+   100% {
+		margin-left: 0px; 
+  		margin-top: 50px;
+      }
+}
+
+@-webkit-keyframes diamond3 {
+   0% {
+		margin-left: 0; 
+  		margin-top: 0;
+      }
+   20% {
+		margin-left: -200px; 
+  		margin-top: -100px;
+      }
+   60% {
+		margin-left: -300px; 
+  		margin-top: -100px;
+      }
+   70% {
+		margin-left: -50px; 
+  		margin-top: -220px;
+      }
+   90% {
+		margin-left: 30px; 
+  		margin-top: 20px;
+      }
+   100% {
+		margin-left:-300px; 
+  		margin-top: 50px;
+      }
+}
+
+
+@-webkit-keyframes round4 {
+   0% {
+		margin-left: 0; 
+  		margin-top: 0;
+      }
+   20% {
+		margin-left: -70px; 
+  		margin-top: -150px;
+      }
+   60% {
+		margin-left: 100px; 
+  		margin-top: -90px;
+      }
+   70% {
+		margin-left: -50px; 
+  		margin-top: -10px;
+      }
+   90% {
+		margin-left: -30px; 
+  		margin-top: 20px;
+      }
+   100% {
+		margin-left:-300px; 
+  		margin-top: 50px;
+      }
+}
+
+.round-1 {
+   width: 600px;
+   height: 600px;
+   background: url(set6.gif) no-repeat;
+   background-size:cover;
+   border:5px solid #fff;
+   margin:100px;
+   border-radius: 300px;
+   overflow: hidden;
+   position: absolute;
+   left:50%;
+   top:50%;
+   margin-left: -300px;
+   margin-top: -300px;
+    -webkit-mask-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAIAAACQd1PeAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAA5JREFUeNpiYGBgAAgwAAAEAAGbA+oJAAAAAElFTkSuQmCC);
+}
+
+.diamond-1 {
+   position:absolute;
+   width: 300px; 
+   height: 200px; 
+   top:190px;
+   left:0px;
+   background: url(set1.gif) no-repeat;
+   background-size: cover;
+   -webkit-transform: rotate(-45deg);
+   transform: rotate(-45deg);
+   -webkit-transform-origin: 0 100%;
+   transform-origin: 0 100%;
+   border:5px solid #fff;
+   
+   -webkit-animation-name: diamond1;
+   -webkit-animation-duration: 30s;
+   -webkit-animation-timing-function: ease; 
+   -webkit-animation-delay: 1s;             
+}
+
+.diamond-2 {
+   position:absolute;
+   width: 600px; 
+   height: 600px;
+   z-index:-1;
+   background: url(set3.gif) no-repeat;
+   background-size: cover;
+   border:5px solid #fff;
+   top:160px;
+   left:0px;
+   -webkit-transform: rotate(-45deg);
+   transform: rotate(-45deg);
+   -webkit-transform-origin: 0 100%;
+   transform-origin: 0 100%;
+   
+   -webkit-animation-name: diamond2;
+   -webkit-animation-duration: 30s;
+   -webkit-animation-timing-function: ease; 
+   -webkit-animation-delay: 1s; 
+}
+
+.diamond-3 {
+   position:absolute;
+   width: 300px; 
+   height: 300px;
+   z-index:-1;
+   background: url(set5.gif) no-repeat;
+   background-size: cover;
+   border:5px solid #fff;
+   z-index:-1;
+   top:160px;
+   left:390px;
+   -webkit-transform: rotate(-45deg);
+   transform: rotate(-45deg);
+   -webkit-transform-origin: 0 100%;
+   transform-origin: 0 100%;
+   
+   -webkit-animation-name: diamond3;
+   -webkit-animation-duration: 30s;
+   -webkit-animation-timing-function: ease; 
+   -webkit-animation-delay: 1s; 
+}
+
+.round-2 {
+   position:absolute;
+   width: 220px;
+   height: 220px;
+   border-radius: 110px;
+   top:440px;
+   left:150px;
+   border:5px solid #fff;
+   background: url(set2.gif) no-repeat;
+   background-size: cover; 
+   z-index:1;
+
+   
+   -webkit-animation-name: round2;
+   -webkit-animation-duration: 30s;
+   -webkit-animation-timing-function: ease; 
+   -webkit-animation-delay: 1s;
+
+}
+
+.round-3 {
+   position:absolute;
+   width: 320px;
+   height: 320px;
+   border-radius: 160px;
+   background: url(set4.gif) no-repeat;
+   background-size: cover;
+   top:240px;
+   left:0px;
+   border:5px solid #fff;
+   z-index:0;
+   
+   -webkit-animation-name: round3;
+   -webkit-animation-duration: 30s;
+   -webkit-animation-timing-function: ease; 
+   -webkit-animation-delay: 1s;
+}
+
+.round-4 {
+   position:absolute;
+   width: 270px;
+   height: 270px;
+   border-radius: 160px;
+   background: url(set7.gif) no-repeat;
+   background-size: cover;
+   z-index:-1;
+   top:0px;
+   left:0px;
+   border:5px solid #fff;
+   z-index:0;
+   
+   -webkit-animation-name: round4;
+   -webkit-animation-duration: 30s;
+   -webkit-animation-timing-function: ease; 
+   -webkit-animation-delay: 1s;
+}
+
+.title {
+   position:absolute;
+   text-align:center;
+   font-family:Arial, Helvetica, sans-serif;
+   color:#fff;
+   font-size:40pt;
+   z-index:2;
+   top:270px;
+   left:86px;
+}

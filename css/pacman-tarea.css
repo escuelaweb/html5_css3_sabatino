@@ -150,3 +150,10 @@
   -webkit-animation: movida-fantasma 12s infinite 1.3s;
 }
 
+.fantasma.pinky{
+  right: -80%;
+  color: #E846C8;
+  -webkit-animation: movida-fantasma 12s infinite 1.6s;
+}
+
+
