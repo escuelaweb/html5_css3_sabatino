@@ -1,0 +1,74 @@
+@font-face {
+	font-family: 'whhglyphs';
+	src:url('fonts/whhglyphs.eot');
+	src:url('fonts/whhglyphs.eot?#iefix') format('embedded-opentype'),
+		url('fonts/whhglyphs.woff') format('woff'),
+		url('fonts/whhglyphs.ttf') format('truetype'),
+		url('fonts/whhglyphs.svg#whhglyphs') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+    @font-face {
+        font-family: 'CardoRegular';
+        src: url('../fonts/Cardo104s-webfont.svg#CardoRegular') format('svg');
+
+    }
+}
+
+/* Use the following CSS code if you want to use data attributes for inserting your icons */
+[data-icon]:before {
+	font-family: 'whhglyphs';
+	content: attr(data-icon);
+	speak: none;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+}
+
+/* Use the following CSS code if you want to have a class per icon */
+/*
+Instead of a list of all class selectors,
+you can use the generic selector below, but it's slower:
+[class*="icon-"] {
+*/
+.icon-oneupalt, .icon-wizard3, .icon-darthvader, .icon-spaceinvaders, .icon-fort, .icon-mickeymouse, .icon-cupcake, .icon-toiletpaper, .icon-submarine {
+	font-family: 'whhglyphs';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+}
+.icon-oneupalt:before {
+	content: "\f3b6";
+}
+.icon-wizard3:before {
+	content: "\f337";
+}
+.icon-darthvader:before {
+	content: "\f34a";
+}
+.icon-spaceinvaders:before {
+	content: "\f352";
+}
+.icon-fort:before {
+	content: "\f400";
+}
+.icon-mickeymouse:before {
+	content: "\f37a";
+}
+.icon-cupcake:before {
+	content: "\f35b";
+}
+.icon-toiletpaper:before {
+	content: "\f384";
+}
+.icon-submarine:before {
+	content: "\f373";
+}
